@@ -12,16 +12,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular-router-news'`, () => {
+  it(`should have as title 'angular-space-news'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-router-news');
+    expect(app.title).toEqual('angular-space-news');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('angular-router-news app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('angular-space-news app is running!');
   });
 });
