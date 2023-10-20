@@ -1,6 +1,10 @@
-# AngularRouterNews
+# AngularSpaceNews
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+
+## Install dependencies
+
+Run `npm install` for install all dependencies.
 
 ## Development server
 
